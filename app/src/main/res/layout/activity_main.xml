@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="355dp"
+        android:layout_height="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <Button
+        android:id="@+id/LogicalB"
+        android:layout_width="45dp"
+        android:layout_height="279dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="29dp"
+        android:onClick="runLogical"
+        android:text="logical _ apps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mediaB"
+        android:layout_width="186dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="runMedia"
+        android:text="media Apps"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="47dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="164dp"
+        android:onClick="runFeature"
+        android:text="feature _ apps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="runDatabase"
+        android:text="database apps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
