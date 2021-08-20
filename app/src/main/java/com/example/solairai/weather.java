@@ -62,7 +62,7 @@ public class weather extends AppCompatActivity {
             //using object of class mentioned below
             String encodedCityName = editText.getText().toString();
              //getting name of city submitted in edit text
-         task.execute("http://api.openweathermap.org/data/2.5/weather?q="+ encodedCityName +"&appid=dcd7cee98c60d7b0bf2bb0f7b2a667a3");
+         task.execute("http://api.openweathermap.org/data/2.5/weather?q="+ encodedCityName +"&appid=e177740459b02834e7c5f0632c925cf5");
            //constructing a url and excuting a task related to "task" object
 
             InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);

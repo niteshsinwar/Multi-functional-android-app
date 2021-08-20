@@ -18,7 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\nites\.android\avd\Pixel_4_XL_API_29.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\nites\.android\avd\Pixel_4_XL_API_29.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,9 +44,10 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@RZ8N701HCQZ" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-17T16:08:56.034449700Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../cmdline-tools" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3-map &amp; location/3map" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -191,22 +192,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="703" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1627017490022" />
-    <state width="1493" height="-1" key="GridCell.Tab.0.bottom" timestamp="1627017328709">
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom" timestamp="1628606572880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="-1" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627017328709" />
-    <state width="1493" height="-1" key="GridCell.Tab.0.center" timestamp="1627017328709">
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628606572880" />
+    <state width="1493" height="297" key="GridCell.Tab.0.center" timestamp="1628606572880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="-1" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627017328709" />
-    <state width="1493" height="-1" key="GridCell.Tab.0.left" timestamp="1627017328709">
+    <state width="1493" height="297" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628606572880" />
+    <state width="1493" height="297" key="GridCell.Tab.0.left" timestamp="1628606572880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="-1" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627017328709" />
-    <state width="1493" height="-1" key="GridCell.Tab.0.right" timestamp="1627017328709">
+    <state width="1493" height="297" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628606572880" />
+    <state width="1493" height="297" key="GridCell.Tab.0.right" timestamp="1628606572880">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="-1" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627017328709" />
+    <state width="1493" height="297" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628606572880" />
     <state x="104" y="4" key="SettingsEditor" timestamp="1626108533979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,10 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1626329417410" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1626518244624">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1628606572622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1626518244624" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1628606572622" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
