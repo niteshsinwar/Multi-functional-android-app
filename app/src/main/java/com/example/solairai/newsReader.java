@@ -43,6 +43,7 @@ public class newsReader extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_reader);
         //all function inside main function will run at startup
+
         Intent intent = getIntent();
         //information is gathered from previous activity
         Toast.makeText(this, intent.getStringExtra("name"), Toast.LENGTH_SHORT).show();
@@ -56,11 +57,10 @@ public class newsReader extends AppCompatActivity {
         DownloadTask task = new DownloadTask();
         try {
             task.execute("https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty");
-
         }//downloading article IDs
-        catch (Exception e) {
+        catch (Exception e) { }
 
-        }
+
 
 
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, titles);
@@ -86,11 +86,12 @@ public class newsReader extends AppCompatActivity {
 
         int titleIndex = c.getColumnIndex("title");
         int URLIndex = c.getColumnIndex("articleURL");
-        //getting title and content index
+        //getting total no of title and articles
+
         if (c.moveToFirst()) {
             titles.clear();
             articleURL.clear();
-      //clearing previeos saved value of title and index
+      //deleting previously saved data in array
             do {
                 titles.add(c.getString(titleIndex));
                 articleURL.add(c.getString(URLIndex));
@@ -130,6 +131,7 @@ public class newsReader extends AppCompatActivity {
 
                 JSONArray jsonArray = new JSONArray(result);
                   //converting json data to arraylist
+
                 int numberOfItems = 40;
                 if (jsonArray.length() < 40) {
                     numberOfItems = jsonArray.length();
@@ -144,7 +146,6 @@ public class newsReader extends AppCompatActivity {
                 for (int i=0;i < numberOfItems; i++) {
 
                     String articleId = jsonArray.getString(i);
-                    //String articleURL = "https://hacker-news.firebaseio.com/v0/item/" + articleId + ".json?print=pretty";
                     url = new URL("https://hacker-news.firebaseio.com/v0/item/" + articleId + ".json?print=pretty");
                    //getting url of articls
 
@@ -170,7 +171,7 @@ public class newsReader extends AppCompatActivity {
                         statement.bindString(1, articleId);
                         statement.bindString(2, articleTitle);
                         statement.bindString(3, articleURL);
-                        //adding article id,title,url to datvbase
+                        //adding article id,title,url to database
                         statement.execute();
 
                     Log.i("article id", articleId);
@@ -190,7 +191,7 @@ public class newsReader extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             updateListView();
-            //this will excecute when data will be downloaded 
+            //this will excecute when task will completed
         }
     }
 }

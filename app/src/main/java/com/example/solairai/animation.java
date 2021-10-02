@@ -49,7 +49,7 @@ public class animation extends AppCompatActivity {
     public void move(View view){
    //arrow
         ImageView I=(ImageView) findViewById(R.id.a);
-        //taking image
+        //setting up image view value
 
         if(q)//checking current state
         {
@@ -72,7 +72,7 @@ public class animation extends AppCompatActivity {
         //circle
 
         ImageView I=(ImageView) findViewById(R.id.red);
-        //taking image
+        //setting up image view value
         if(r) {
             r=false;
             I.animate().scaleX(2).scaleY(2).setDuration(3000);
